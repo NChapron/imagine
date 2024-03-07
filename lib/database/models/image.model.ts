@@ -17,6 +17,7 @@ export interface IImage extends Document {
     firstName: string;
     lastName: string;
   };
+  _id?: string;
   createdAt: Date;
   updatedAt: Date;
 }
